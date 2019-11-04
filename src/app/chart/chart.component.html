@@ -1,0 +1,24 @@
+<div *ngIf="!currentDateTime" class="row">
+    <div class="col text-center">
+        <div class="text-white bg-secondary mb-3">
+            <span> Loading chart...</span>
+        </div>
+    </div>
+</div>
+<div [hidden]="!currentDateTime" class="container">
+    <div class="row">
+        <div class="col text-center">
+            <div class="p-3 mb-2 bg-light text-dark">{{chartTitle}}</div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <canvas #barChart>{{barChartData}}</canvas>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col text-center">
+            <span class="p-3 mb-2 bg-light text-dark"> Last update: {{currentDateTime}}</span>
+        </div>
+    </div>
+</div>

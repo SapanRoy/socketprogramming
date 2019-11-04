@@ -1,0 +1,14 @@
+<div class="row">
+    <div class="col p-4 mb-2 bg-light text-dark">
+        Current value:
+        <span [ngClass]="{ 'text-info':isPrimary, 'text-primary': !isPrimary }">
+            {{currentValue}}
+        </span>
+    </div>
+    <div class="col p-4 mb-2 bg-light text-dark">
+        Data recieved at:
+        <span [ngClass]="{ 'text-info':isPrimary, 'text-primary': !isPrimary }">
+            {{currentDateTime}}
+        </span>
+    </div>
+</div>
