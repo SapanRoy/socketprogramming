@@ -1,0 +1,83 @@
+{
+    "chartTitle": "Top Ten Gainers & Losers",
+    "firstDataSet": {
+        "labels": [
+            "Tata Motors",
+            "Axis Bank",
+            "Maruti",
+            "TCS",
+            "Reliance",
+            "TechM",
+            "LA OPALA",
+            "BOSCH",
+            "Bata India",
+            "Sun Pharmaceutical"
+        ],
+        "data": [
+            1200,
+            194,
+            300,
+            508,
+            2200,
+            1450,
+            1800,
+            2800,
+            3000,
+            560
+        ]
+    },
+
+    "secondDataSet": {
+        "labels": [
+            "Tata Motors",
+            "Axis Bank",
+            "Maruti",
+            "TCS",
+            "Reliance",
+            "TechM",
+            "LA OPALA",
+            "BOSCH",
+            "Bata India",
+            "Sun Pharmaceutical"
+        ],
+        "data": [
+            100,
+            500,
+            1400,
+            200,
+            200,
+            180,
+            600,
+            200,
+            300,
+            500
+        ]
+    },
+    "thirdDataSet": {
+        "labels": [
+            "Tata Motors",
+            "Axis Bank",
+            "Maruti",
+            "TCS",
+            "Reliance",
+            "TechM",
+            "LA OPALA",
+            "BOSCH",
+            "Bata India",
+            "Sun Pharmaceutical"
+        ],
+        "data": [
+            600,
+            534,
+            1400,
+            200,
+            4000,
+            550,
+            2800,
+            800,
+            2000,
+            1200
+        ]
+    }
+
+}
